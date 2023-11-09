@@ -11,7 +11,7 @@ export default function Home() {
       </div>
       <div>
         <Image
-          src="anarchy.jpg"
+          src="/anarchy.jpg"
           alt="Landscape picture"
           width={800}
           height={500}
