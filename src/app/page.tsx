@@ -1,6 +1,6 @@
 
 import Header from '../app/component/header'  
-
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -10,7 +10,13 @@ export default function Home() {
             im home page
       </div>
       <div>
-        <img src="anarchy.jpg" alt="" />
+        <Image
+          src="anarchy.jpg"
+          alt="Landscape picture"
+          width={800}
+          height={500}
+        />
+        
       </div>
   </>
   )

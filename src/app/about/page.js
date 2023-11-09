@@ -1,9 +1,8 @@
-"use client"
+'use client'
 import Header from "../component/header";
-// import useRouter from "next/navigation";
-import { useRouter } from 'next/navigation'
+import { useRouter } from 'next/router'
 
-export default function about() {
+export default function About() {
     const router = useRouter()
     return (
         <>
